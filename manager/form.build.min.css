@@ -1,0 +1,61 @@
+﻿/*! FormCrafts - v0.1.0 - 2015-05-28 */
+html{margin:0;padding:0;max-width:100%}
+body{margin:0;font-family:'Helvetica Neue',Helvetica,Arial;width:100%;max-width:100%}
+
+
+
+.formcrafts{position:relative;min-width:100%;*width:100%}
+
+
+.formcrafts .form-page{padding-bottom:15px;padding-top:15px;padding-left:6%;width:94%;display:block}
+.formcrafts .form-page>li:last-child .text-cover{border-bottom-right-radius:4px;}
+.formcrafts .form-page>li.text-parent:last-child{margin-bottom:-15px;margin-top:0}
+.formcrafts .form-page>li.text-parent:first-child{margin-top:-15px;margin-bottom:0}
+
+.formcrafts .form-element{
+	list-style:none;float:left;padding-right:6%;display:inline-block;position:relative;vertical-align:top;width:100%;box-sizing:border-box;}
+.formcrafts .form-element .form-field{height:100%}
+.formcrafts .form-element.parent-absolute_true{display:block}
+.formcrafts .form-element .absolute_true{position:absolute;z-index:1000}
+.formcrafts .form-element .form-field.absolute_true .text-cover{height:auto;width:93.21%}
+.formcrafts .form-element .form-field>label,.formcrafts .form-element .form-field>div{padding:10px 0 10px 0}
+
+.formcrafts .form-element .form-field label{display:block}
+.formcrafts .form-element .form-field .label_cover{box-sizing:border-box;display:inline-block;width:32%;vertical-align:top;text-align:right;padding-right:14px}
+.formcrafts .form-element .form-field .input_cover{
+	box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;display:inline-block;width:68%;vertical-align:top;position:relative}
+.formcrafts .form-element .form-field .input_cover textarea{resize:vertical}
+.formcrafts .form-element .form-field .input_cover textarea.growComments{overflow:hidden;-webkit-transition:height .2s ease}
+
+
+.formcrafts input[type="text"],.formcrafts input[type="email"],.formcrafts input[type="tel"],.formcrafts input[type="number"],.formcrafts select,.formcrafts textarea{padding:.6em .7em .5em .7em;font-size:.90em;color:#666;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;border:1px solid #ccc;border-color:#c4c4c4 #d8d8d8 #e2e2e2;outline:0;margin:0;line-height:1.5em;width:100%;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;font-family:Helvetica,Arial;-webkit-appearance:none;vertical-align:top}
+.formcrafts input[type="text"]:focus,.formcrafts input[type="email"]:focus,.formcrafts input[type="tel"]:focus,.formcrafts input[type="number"]:focus,.formcrafts select:focus,.formcrafts textarea:focus{border-color:#48e}@-moz-document url-prefix(){input[type="text"],input[type="email"],input[type="tel"],input[type="number"],select{height:2.6em;line-height:160%}}
+.formcrafts textarea{height:auto}
+.formcrafts select{line-height:130%;padding:.55em 8px .55em 8px}
+.formcrafts .datepicker-cover input[type="text"],.formcrafts input[type="email"]{padding-right:34px}
+.formcrafts select{text-indent:.01px;text-overflow:'';position:relative;padding-right:30px}
+.formcrafts .select-cover{position:relative;width:100%;display:inline-block;border-radius:3px;padding:0;border:0}
+
+.formcrafts .select-cover:after{font-family:'icons';position:absolute;right:.8em;top:.55em;bottom:auto;line-height:100%}
+
+.formcrafts.form-live .form-element.hidden-element{display:none}
+.formcrafts li.form-element .form-field .no-sl .label{top:0}
+.formcrafts li.form-element.layout-inline .input_cover,.formcrafts .layout-inline .input_cover{width:100%!important}.formcrafts .form-element{width:100%!important}
+@media(-webkit-max-device-pixel-ratio:1.5),(max-resolution:1.5dppx),(max-resolution:144dpi){body .formcrafts.iframe-inactive .form-body,body .formcrafts.iframe-active .form-body{box-shadow:0 1px 3px #777}
+body .formcrafts.iframe-inactive .no-frame .form-body,body .formcrafts.iframe-active .no-frame .form-body{box-shadow:none;-box-box-shadow:none;-webkit-box-shadow:none}}
+
+
+
+
+.tooltip {
+  position: absolute;
+  z-index: 99999;
+  display: block;
+  visibility: visible;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: .3px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  font-family: 'Trebuchet MS', Arial;
+}

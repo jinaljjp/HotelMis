@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #027fcf;
+	background-image:url(../images/top-rept.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin: 0px;
+	}
+#main{
+	width:70%;
+	margin-left:230px;
+	margin-top:70px;
+	text-align:center;
+	background-color:#D7D7D7;
+	/*background-image: url(../images/header-top.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;*/
+}
+h2{
+border:thin; 
+padding-top:20px;
+height:50px;
+}
+#date{
+	margin-left:500px;
+	
+}
